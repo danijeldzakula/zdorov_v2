@@ -605,6 +605,7 @@ h1 {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
+  z-index: 1;
 }
 .form-block {
   background: #f6f6f6;
@@ -3425,7 +3426,8 @@ input[type='submit'].styler[disabled] {
   }
   .consist__text {
     position: relative;
-    background: url(../img/varifort.png) no-repeat right top;
+    background: url(../img/artikulax.png) no-repeat 90% center;
+    background-size: contain;
     min-height: 561px;
   }
   .consist__text > p {
@@ -3562,7 +3564,8 @@ input[type='submit'].styler[disabled] {
   .intro {
     background-image: url(../img/bg-1.jpg);
     background-repeat: no-repeat;
-    height: 780px;
+    height: 100%;
+    background-size: cover;
   }
   .intro__product {
     text-align: right;
@@ -3859,6 +3862,9 @@ input[type='submit'].styler[disabled] {
     top: 10px;
   }
 }
+.percent-circle:before {
+  z-index: 5;
+}
 @media only screen and (min-width: 480px) {
   .intro .percent-circle:before {
     left: -25px;
@@ -3880,6 +3886,7 @@ input[type='submit'].styler[disabled] {
     height: 58px;
     box-sizing: content-box;
     background-position: -301px -215px;
+
   }
 }
 @media only screen and (max-width: 479px) {
@@ -3947,7 +3954,7 @@ input[type='submit'].styler[disabled] {
     font-size: 4rem;
   }
   .bg-color {
-    line-height: 0.7;
+    line-height: .9;
   }
 }
 

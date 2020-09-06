@@ -107,3 +107,129 @@ a.checkbox_close {
     font-weight: 500;
 }
 
+
+.intro-img {
+    position: relative;
+    display: block;
+    width: auto;
+    margin: auto;
+    max-height: 400px;
+
+}
+
+@media only screen and (min-width: 992px) {
+    .intro-img {
+         z-index: -1;
+         left: -60px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .intro-img {
+        left: -130px;
+        bottom: 10px;
+    }
+    .intro .info-circle {
+        top: 10px;
+        left: 280px;        
+    }
+}
+
+.symptoms__img {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.small-img {
+    position: relative;
+    width: 100%;
+    max-width: 120px;
+    z-index: 1;
+    margin: auto;
+}
+
+@media only screen and (min-width: 992px) {
+    .small-img {
+        left: 50px;
+        max-width: 80px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .small-img {
+    }
+}
+
+.consist-img {
+    display: block;
+    width: 100%;
+    max-width: 120px;
+}
+
+@media only screen and (min-width: 480px) {
+    .consist .info-circle {
+        right: -100px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .consist-img {
+
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .consist-img {
+
+    }
+
+    .consist__text {
+
+    }
+
+    .consist .info-circle {
+        right: 35px;
+        top: -150px;
+    }
+
+    .consist .container {
+        padding-bottom: 40px;
+    }
+}
+
+
+.order-img {
+    position: relative;
+    top: 20px;
+    display: block;
+    width: 100%;
+    max-width: 120px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 992px) {
+    .order-img {
+
+    }
+
+    .order__product {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .order__product .order-img {
+        max-width: 100px;
+        margin-left: 0;
+        top: -10px;
+        left: 60px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .order-img {
+
+    }
+
+
+}

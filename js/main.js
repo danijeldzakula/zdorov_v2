@@ -22,3 +22,8 @@ function showVisitors() {
 }
 
 showVisitors();
+
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+});
